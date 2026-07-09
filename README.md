@@ -2,6 +2,8 @@
 
 End-to-end data engineering project for a bike-sharing system (based on Antwerp's Velo). Implements an operational OLTP database, a star-schema data warehouse, Apache Spark ETL pipelines, graph export for Neo4j, Parquet export, and a Power BI report.
 
+The report is included as pdf, however the interactive version is accessible [here](https://app.powerbi.com/reportEmbed?reportId=3a6bb39b-0ebd-4c1b-9772-11bffbb1eb8f&autoAuth=true&ctid=ed1fc57f-8a97-47e7-9de1-9302dfd786ae&actionBarEnabled=true)
+
 ## Architecture
 
 ```
