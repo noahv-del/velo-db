@@ -1,0 +1,14 @@
+services:
+    db:
+        image: postgres:17.2-alpine
+        restart: always
+        environment:
+            POSTGRES_DB: 'veloDB'
+            POSTGRES_USER: 'postgres'
+            POSTGRES_PASSWORD: 'Student_1234'
+        ports:
+            - '5433:5432'
+        volumes:
+            - db-data:/var/lib/postgresql/data
+volumes:
+    db-data:
