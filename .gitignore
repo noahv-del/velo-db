@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings
+
+# Spark / Hadoop / Delta
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Generated data (too large for git)
+veloproject/parquet_files/
+veloproject/py/rides_graph.json
+
+# Generated seed data (too large for git — regenerate from source)
+veloDB/veloscripts/07_fill_rides.sql
+
+
+# Large binary dependencies
+*.7z
+*.jar
+!veloproject/py/postgresql-42.6.0.jar
+veloDB/
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+db-data/
+
+# Config with credentials (optional — keep template, ignore actual secrets)
+config.ini

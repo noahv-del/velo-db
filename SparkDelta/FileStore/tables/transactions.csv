@@ -1,0 +1,11 @@
+transaction_id,customer_id,purchase_date,product_name,quantity
+1,101,2023-06-01,Product A,2
+2,102,2023-06-02,Product B,5
+3,103,2023-06-03,Product A,3
+4,101,2023-06-04,Product C,1
+5,104,2023-06-05,Product B,4
+6,102,2023-06-06,Product A,2
+7,103,2023-06-07,Product C,3
+8,101,2023-06-08,Product B,5
+9,104,2023-06-09,Product A,2
+10,103,2023-06-10,Product B,3
